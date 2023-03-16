@@ -32,7 +32,7 @@ _optimizers = OrderedDict([
     # ("reshape_optimizer", ReshapeOptimizer),
     # ("global_pool_optimizer", GlobalPoolOptimizer),
     # ("q_dq_optimizer", QDQOptimizer),
-    # ("remove_identity", IdentityOptimizer),
+    ("remove_identity", IdentityOptimizer),
     # ("remove_back_to_back", BackToBackOptimizer),
     # ("einsum_optimizer", EinsumOptimizer),
 ])
